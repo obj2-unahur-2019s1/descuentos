@@ -71,8 +71,10 @@ Tipos de descuento:
 
 Contamos con la siguiente interface de servicio:
 
-`public interface DiscountService {
+```
+public interface DiscountService {
   BigDecimal getDiscount(Productproduct);
 }
+```
 
 Implementar el servicio correspondiente, y las promociones adecuadas
